@@ -40,7 +40,7 @@ class _ToDoPageState extends State<ToDoPage> {
                 child: Container(
                   padding: EdgeInsets.all(20),
                   child: Column(
-                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       TextFormField(
                         controller: task,
